@@ -1,5 +1,44 @@
 .bs-example{
-    margin: 20px;
+    margin-left: 20px;
+}
+
+#timer {
+	padding: 150px 0px 50px 0px;
+	min-height: 60vh;
+    background: linear-gradient(to bottom right, #ffffff, #1b2434);
+    text-align: center;
+}
+
+#timer h1, h3, p{
+	color: #ffffff;
+}
+
+hr.divider{
+    border: 1px dashed #fff;
+}
+
+.link {
+    border: none;
+    background: #1b2434;
+    color: #ffffff !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.2s ease 0s;
+}
+
+.link:hover {
+    color: #1b2434 !important;
+    font-weight: 700 !important;
+    letter-spacing: 5px;
+    background: #ffffff;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.2s ease 0s;
 }
 
 footer {

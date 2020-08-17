@@ -1,8 +1,9 @@
 .bs-example{
-    margin: 20px;
+    margin-left: 20px;
 }
 
 footer {
+    margin-top: 100px;
     background-color: #1B2434;
 }
 
